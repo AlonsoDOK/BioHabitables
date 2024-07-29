@@ -1,6 +1,5 @@
 .contenedor{
     background-color: whitesmoke;
-    border: 1px solid black;
 
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -21,8 +20,17 @@
     grid-row: 1/2;
     
     display: flex;
-    justify-content: space-around;
 }
+
+
+
+.navbar{
+    color: #485730;
+    background-color: #FFDA3A;
+    margin: auto;
+
+}
+
 
 .cuerpo{
     background-color: #F2FDFF;
@@ -35,13 +43,36 @@
     background-color: whitesmoke;
     grid-column: 1/2;
     grid-row: 2/6;
-
-
+    color: #FFDA3A;
+   
 }
 
+.boxop{
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+    
+}
 
-.pie{
-    background-color: #FFDA3A;
-    grid-column: 1/11;
-    grid-row: 6/7;
+.alerce{
+    background-color: #35682D;
+}
+
+.nogal{
+    background-color: #705335;
+}
+
+.ficus{
+    background-color: #51D1F6;
+}
+
+.mipro{
+    background-color: #CF1020;
+}
+
+.cuerpo{
+    display: flex;
+    
+    width: fit-content;
 }
