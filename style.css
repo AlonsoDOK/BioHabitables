@@ -1,58 +1,71 @@
-.contenedor{
-    background-color: whitesmoke;
-
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+@media (min-width: 601px)  {
+    main{
+        background-color: whitesmoke;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
     
+    .navegador{
+        font-size: xx-large;
+        grid-column: 1/2;
+        grid-row: 1/7;
+        height: 100%;
+        justify-content: space-evenly;
+    }
+
+    .boxop{
+        color: #FFDA3A;
+        height: 25%;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .cuerpo{
+        background-color: #F2FDFF;
+        grid-column: 2/6;
+        grid-row: 1/7;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
-.box{
-    border: 0px solid black;
-    font-size: 30px;
-    text-align: center;
+@media (max-width: 600px) {
+    main{
+        background-color: whitesmoke;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(5, 15cap);
+        
+    }
     
+    .navegador{
+        grid-column: 1/6;
+        grid-row: 1/2;
+        display: flex;
+        width: 100%;
+    }
+
+    .boxop{
+        color: #FFDA3A;
+        border: black 5px solid;
+        width: 100%;
+        text-align: center;
+    }
+
+    .cuerpo{
+        background-color: #F2FDFF;
+        grid-column: 1/6;
+        grid-row: 2/6;
+    }
 }
 
-.encabezado{
-    background-color:#FFDA3A;
-    grid-column: 1/11;
-    grid-row: 1/2;
-    
+header{
     display: flex;
-}
-
-
-
-.navbar{
-    color: #485730;
+    padding: 10px;
+    justify-content: space-between;
     background-color: #FFDA3A;
-    margin: auto;
-
-}
-
-
-.cuerpo{
-    background-color: #F2FDFF;
-    grid-column: 2/11;
-    grid-row: 2/6;
-
-}
-
-.navegador{
-    background-color: whitesmoke;
-    grid-column: 1/2;
-    grid-row: 2/6;
-    color: #FFDA3A;
-   
-}
-
-.boxop{
-    display: flex;
-    height: 150px;
-    align-items: center;
-    justify-content: center;
-    
 }
 
 .alerce{
@@ -71,8 +84,9 @@
     background-color: #CF1020;
 }
 
-.cuerpo{
-    display: flex;
-    
-    width: fit-content;
+footer{
+    background-color: #FFDA3A;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
 }
