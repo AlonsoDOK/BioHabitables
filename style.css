@@ -12,22 +12,22 @@
         grid-row: 1/7;
         height: 100%;
         justify-content: space-evenly;
+        display: flex;
+        flex-direction: column;
     }
 
     .boxop{
         color: #FFDA3A;
-        height: 25%;
-        width: 100%;
+        height: 100%;
         text-align: center;
-        justify-content: center;
     }
 
     .cuerpo{
-        background-color: #F2FDFF;
         grid-column: 2/6;
         grid-row: 1/7;
         display: grid;
         grid-template-columns: 1fr 1fr;
+        color: whitesmoke;
     }
 }
 
@@ -49,7 +49,6 @@
 
     .boxop{
         color: #FFDA3A;
-        border: black 5px solid;
         width: 100%;
         text-align: center;
     }
