@@ -29,6 +29,27 @@
         grid-template-columns: 1fr 1fr;
         color: whitesmoke;
     }
+
+    .tithist{
+        grid-column: 1/6;
+        grid-row: 1/1;
+        justify-self: center;
+        padding-top: 30px;
+    
+    }
+
+    .parrhist{
+        display: flex;
+        grid-column: 1/6;
+        grid-row: 2/7;
+        padding: 50px;
+    }
+
+    .nav{
+        align-self: center;
+        justify-content: center;
+        font: bold;
+    }
 }
 
 @media (max-width: 600px) {
@@ -58,6 +79,26 @@
         grid-column: 1/6;
         grid-row: 2/6;
     }
+
+    .tithist{
+        grid-column: 1/6;
+        grid-row: 1/1;
+        justify-self: center;
+        padding-top: 30px;
+    
+    }
+
+    .parrhist{
+        display: flex;
+        grid-column: 1/6;
+        grid-row: 2/7;
+        padding: 50px;
+
+    }
+
+    footer{
+        
+    }
 }
 
 header{
@@ -66,6 +107,14 @@ header{
     justify-content: space-between;
     background-color: #FFDA3A;
 }
+
+h1{
+    color: #35682D;
+    align-self: center;
+    padding: 30px;
+}
+
+
 
 .alerce{
     background-color: #35682D;
