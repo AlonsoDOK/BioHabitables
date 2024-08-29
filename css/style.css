@@ -54,13 +54,18 @@
     background-color: whitesmoke;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 15cap);
+    grid-template-rows: 30px, repeat(6, 20cap);
   }
   .navegador {
     grid-column: 1/6;
     grid-row: 1/2;
     display: flex;
     width: 100%;
+  }
+  .nav {
+    align-self: center;
+    justify-content: center;
+    font: bold;
   }
   .boxop {
     color: #FFDA3A;
@@ -69,7 +74,7 @@
   }
   .cuerpo {
     background-color: #F2FDFF;
-    grid-column: 1/6;
+    grid-column: 1/5;
     grid-row: 2/6;
   }
   .tithist {
@@ -84,6 +89,11 @@
     grid-row: 2/7;
     padding: 50px;
   }
+  form{
+    align-self: center;
+    grid-row: 2/4;
+    grid-column: 2/3;
+  }
 }
 header {
   display: flex;
@@ -92,10 +102,51 @@ header {
   background-color: #FFDA3A;
 }
 
+.logo{
+  height: 10cap;
+  margin: 10px;}
+
+.tamarugo{
+  background-color: #35682D;
+  font-size: auto;
+  text-justify: auto;
+  align-content: center;
+  padding: 15px;
+  color: whitesmoke;
+}
+.queule{
+  background-color: #705335;
+  font-size: auto;
+  text-justify: auto;
+  align-content: center;
+  padding: 15px;
+  color: whitesmoke;
+}
+.pitao{
+  background-color: #51D1F6;
+  font-size: auto;
+  text-justify: auto;
+  align-content: center;
+  padding: 15px;
+  color: black;
+}
+.guayacan{
+  background-color: #CF1020;
+  font-size: auto;
+  text-justify: auto;
+  align-content: center;
+  padding: 15px;
+  color: whitesmoke;
+}
 h1 {
   color: #35682D;
   align-self: center;
   padding: 30px;
+}
+
+.imagenescuerpo{
+  width: 100%;
+  justify-self: center;
 }
 
 .alerce {
@@ -171,4 +222,4 @@ button {
   margin-left: 0.5em;
 }
 
-/*# sourceMappingURL=style.css.map */
+
