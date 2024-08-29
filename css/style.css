@@ -26,6 +26,10 @@
     grid-template-columns: 1fr 1fr;
     color: whitesmoke;
   }
+  .titinicio{
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
   .tithist {
     grid-column: 1/6;
     grid-row: 1/1;
@@ -76,6 +80,10 @@
     background-color: #F2FDFF;
     grid-column: 1/5;
     grid-row: 2/6;
+  }
+  .titinicio{
+    grid-column: 2/4;
+    grid-row: 1/2;
   }
   .tithist {
     grid-column: 1/6;
@@ -142,6 +150,19 @@ h1 {
   color: #35682D;
   align-self: center;
   padding: 30px;
+}
+
+/*Google Fonts*/
+
+.oswald-titulouno{
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.titinicio{
+  text-align: center;
 }
 
 .imagenescuerpo{
