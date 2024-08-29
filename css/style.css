@@ -114,6 +114,12 @@ header {
   height: 10cap;
   margin: 10px;}
 
+.opcionesinicio{
+  display: flex;
+  grid-column: auto;
+  grid-row: ;
+}
+
 .tamarugo{
   background-color: #35682D;
   font-size: auto;
