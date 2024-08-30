@@ -115,7 +115,8 @@ header {
   margin: 10px;}
 
 .opcionesinicio{
-  display: flex;
+  align-self: stretch ;
+  border: #000 1px solid;
   grid-column: auto;
   grid-row: ;
 }
